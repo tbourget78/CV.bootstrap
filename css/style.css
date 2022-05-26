@@ -34,6 +34,30 @@ section .heading h2{
 ul{
   list-style: none;
 }
+/*NAV-BAR*/
+.navbar{
+  background-color: gray;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+.navbar-nav{
+  margin: 0 auto;
+  text-align: center;
+}
+.nav-item a{
+  border-radius: 5px;
+}
+.nav-link {
+  color: white !important;
+  margin: 6px;
+}
+.nav-link.active,
+.nav-link:hover{
+  background-color: white;
+  color: #d82c2e !important;
+}
 /* ABOUT */
 
 #about{
@@ -245,4 +269,25 @@ ul{
 #myCarousel .carousel-item h3{
   color: gray;
   font-style: italic;
+}
+/*FOOTER*/
+footer{
+  background-color: #333;
+  padding: 20px 0 40px;
+}
+footer span{
+  color :#d82c2e;
+  font-size: 25px;
+  line-height: 35px;
+}
+footer span:hover{
+  font-size: 35px;
+}
+footer h5{
+  color: #fff;
+  font-weight: normal;
+}
+footer button{
+  margin-top: 15px;
+  margin-bottom: 30px;
 }

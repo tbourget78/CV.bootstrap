@@ -11,7 +11,37 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
   <title>CV BOURGET Thomas</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#myNavbar">
+  <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" #about">Moi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Compétences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiences">Expérience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Éducation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recommendation">Recommendation</a>
+          </li>    
+        </ul>
+      </div>
+    </div>
+  </nav>
   <section id="about" class="container-fluid">
     <div class="col-8 col-lg-4 profile-picture">
       <img src="images/photoPerso.jpg" alt="" class="rounded-circle">
@@ -220,5 +250,8 @@
     </div>
   </div>
 </section>
+<footer class="text-center">
+  <a href="#about"><span class="bi bi-chevron-up"></span></a><br>
+  <button type="button" class="btn btn-outline-secondary btn-lg">T-Bourget.com</button></footer>
 </body>
 </html>
